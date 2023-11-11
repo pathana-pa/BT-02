@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+
+    padding: 32px;
+}
+
+.alert {
+    padding: 17px;
+    border-radius: 12px;
+    border: 1px solid  rgb(243, 244, 246);
+    width: 448px;
+    height: 82px;
+
+    display: flex;
+    
+    gap: 16px;
+}
+
+.alert-check ion-icon{
+    color: green;
+    font-size: 24px;
+}
+
+.alert-info{
+    flex-grow: 1;
+}
+
+.alert-title{
+    color: black;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 1.5;
+    margin-bottom: 4px;
+}
+
+.alert-description{
+    color: black;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.alert-close ion-icon{
+    color: #6b7280;
+    font-size: 24px;
+}
+
+.alert-red{
+    padding: 16px;
+    margin: 32px 0px 0px;
+    border-radius: 4px;
+    border: 1px solid  rgba(248, 168, 168,.2);
+    background-color: rgba(248, 168, 168,.2);
+    width: 448px;
+    height: 124px;
+
+    display: flex;
+    
+    gap: 16px;
+
+    border-left: #b91c1c 5px solid;
+}
+
+.alert-alert ion-icon{
+    color: #991b1b;
+    /* display: inline; */
+    fill: #991b1b;
+    line-height: 1.5;
+    font-size: 25px;
+}
+
+.alert-text-title{
+    display: flex;
+    color: #991b1b ;
+    font-weight: 500;
+    line-height: 1.5;
+    gap: 8px;
+    align-items: center;
+}
+
+.alert-text{
+    color: #b91c1c;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.2;
+    margin: 8px 0px 0px;
+
+}
+
+

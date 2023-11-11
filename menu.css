@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter', sans-serif;
+}
+.menu{
+    cursor: pointer;
+    height: 260px;
+    width: 100%;
+    line-height: 1.5;
+    padding: 32px;
+}
+
+
+
+ion-icon{
+    font-size: 16px;
+    color: #374151;
+    
+}
+
+.general{
+    height: 36px;
+    width: 384px;
+    display: flex;
+    align-items: center;
+    background-color: #f3f4f6;
+    border-radius: 8px;
+    color: #374151;
+    
+    gap: 8px;
+    line-height: 1.5;
+    padding: 8px 16px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.teams{
+    display: flex;
+    /* justify-content: space-between; */
+    height: 36px;
+    width: 384px;
+    display: flex;
+    align-items: center;
+    
+    border-radius: 8px;
+    color: #6e7581;
+    
+    gap: 8px;
+    line-height: 1.5;
+    padding: 8px 16px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.billing{
+    height: 36px;
+    width: 384px;
+    display: flex;
+    align-items: center;
+    
+    border-radius: 8px;
+    color: #6e7581;
+   
+    gap: 8px;
+    line-height: 1.5;
+    padding: 8px 16px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.invoives{
+    display: flex;
+    /* justify-content: space-between; */
+    height: 36px;
+    width: 384px;
+    display: flex;
+    align-items: center;
+    
+    border-radius: 8px;
+    color: #6e7581;
+    
+    gap: 8px;
+    line-height: 1.5;
+    padding: 8px 16px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.account{
+    height: 36px;
+    width: 384px;
+    display: flex;
+    align-items: center;
+    
+    border-radius: 8px;
+    color: #6e7581;
+    
+    gap: 8px;
+    line-height: 1.5;
+    padding: 8px 16px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+p{
+    display: flex;
+    justify-content: flex-end;
+    
+    height: 20px;
+    width: 31px;
+    background-color: #f3f4f6;
+    border-radius: 9999px;
+    color: #6e7581;
+    font-size: 12px;
+    line-height: 1;
+    padding: 2px 12px;
+    text-align: left;
+    
+}
+
+.teams:hover{
+    color: #374151;
+    background-color: #f3f4f6;
+}
+
+.billing:hover{
+    color: #374151;
+    background-color: #f3f4f6
+}
+
+.invoives:hover{
+    color: #374151;
+    background-color: #f3f4f6
+}
+
+.account:hover{
+    color: #374151;
+    background-color: #f3f4f6
+}
+
+@media (max-width: 500px){
+    .general{
+        width: 100%;
+    }
+
+    .teams{
+        width: 100px;
+    }
+
+    .billing{
+        width: 100px;
+    }
+
+    .invoives{
+        width: 100px;
+    }
+
+    .account{
+        width: 100px;
+    }
+}

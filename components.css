@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Inter, sans-serif;
+}
+
+h1{
+    width: 436px;
+    height: 32px;
+    font-size: 24px;
+    font-weight: 700;
+    grid-area: auto;
+    line-height: 2;
+    margin: 32px 16px 32px 32px;
+}
+
+a{
+    width: 64px;
+    height: 22px;
+    display: block;
+    color: #3b82f6;
+    font-size: 18px;
+    grid-area: auto;
+    line-height: 1.8;
+    text-align: left;
+    margin: 16px 48px;
+    text-decoration: none;
+}

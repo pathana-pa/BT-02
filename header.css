@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    line-height: 1.5;
+    padding: 48px 24px;
+    border: solid rgb(229, 231, 235);
+    background-color: rgb(229, 231, 235) ;
+    font-family: 'Inter', sans-serif;
+
+}
+
+h1{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 2.1;
+    text-align: left;
+}
+
+
+p{
+    color: #6b7280;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.1;
+    margin: 6px 0px 0px;
+    text-align: left;
+    margin-top: 6px;
+
+}
+
+
+
+
+button {
+    font-family: 'Inter', sans-serif;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    display: flex;
+    gap: 16px;
+}
+
+.btn{
+    display: flex;
+    gap: 16px;
+}
+
+.btn-post {
+    background-color: #4f46e5;
+    color: #fff;
+    padding: 12px 16px;
+    border-radius: 8px;
+}
+
+.btn-web{
+    background-color: #ffff;
+    color: #fff;
+    padding: 12px 16px;
+    border-radius: 8px;  
+    border-color: #e5e7eb;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 1px;
+    color: #6b7280; 
+}
+
+.btn-post:hover{
+    background-color: #423bbc;
+}
+
+.btn-web:hover{
+    color: #1e2023;
+}
+
+@media (max-width: 500px) {
+
+    .header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h1{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .text{
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .btn-post {
+        font-size: 10px;
+        align-items: center;
+        width: 100%;
+    }
+
+    .btn-web{
+        font-size: 10px;
+        align-items: center;
+        width: 100%;
+    }
+
+  }

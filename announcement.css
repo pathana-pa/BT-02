@@ -1,0 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+
+.announcement{
+    background-color: #4f46e5;
+    padding: 12px 16px;
+    font-weight: 500px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.announcement-text{
+    
+    color: white;font-size: 14px;
+}
+.announcement-text a{
+    
+    
+  
+    color: white;
+        /* flex-wrap: none; */
+    
+
+
+}
+
+.announcement-close{
+
+    color: white;
+    border-radius: 8px;
+    padding: 4px;
+    background-color: rgba(0, 0, 0, .1);
+    
+
+}
+
+.announcement-close ion-icon{
+    font-size: 12px;
+    display: block;
+
+    --ionicon-stroke-width: 16px;
+
+}
